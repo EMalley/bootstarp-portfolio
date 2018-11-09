@@ -1,3 +1,22 @@
-*{
-    background-image:url(images/dust_scratches/dust_scratches.png);
+body { 
+    background-image: url("../images/dust_scratches/dust_scratches.png");
+   
+}
+
+#profilePic { 
+    float: left;
+    margin-right: 20px;
+}
+
+footer {
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: #777777;
+    border-top: 10px solid #4aaaa5;
+    padding: 30px;
+}
+
+#linkName {
+
 }
