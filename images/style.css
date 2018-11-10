@@ -28,5 +28,12 @@ footer {
 
 .caption:hover {
     background-color:#4aaa
+}
 
+.jumbotron {
+    background-color:#fff
+}
+
+.nav {
+    background-color:#fff;
 }
