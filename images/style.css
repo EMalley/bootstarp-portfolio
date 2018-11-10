@@ -17,6 +17,16 @@ footer {
     padding: 30px;
 }
 
-#linkName {
+.caption {
+    display: block;
+    background-color: #4aaaa5;
+    padding: 10px;
+    color: #fff;
+    margin-right: 62%;
+    text-align: center;
+}
+
+.caption:hover {
+    background-color:#4aaa
 
 }
