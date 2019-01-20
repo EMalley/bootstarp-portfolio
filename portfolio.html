@@ -1,70 +1,97 @@
 <!DOCTYPE html>
-<html lang= en>
+<html lang=en>
+
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="images/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Portfolio</title>
 </head>
+
 <body>
 
     <!--NAV BAR-->
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="h-50 d-inline-block" style="width: 200px; background-color: #4aaaa5; color: #fff; "; ><h1>Eric Malley</h1></div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav navbar-right ml-auto">
-                    <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-item nav-link" href="contact.html">Contact</a>
-                  </div>
-                </div>
+    <div class="container portfolio-container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="h-50 d-inline-block" style="width: 200px; background-color: #4aaaa5; color: #fff; " ;>
+                        <h1>Eric Malley</h1>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav navbar-right ml-auto">
+                            <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-item nav-link" href="contact.html">Contact</a>
+                        </div>
+                    </div>
+            </div>
         </div>
     </div>
-</div>
-</nav>
-<hr>
-<!--Main Content-->
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
+    </nav>
+    <hr>
+    <!--Main Content-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
                 <div class="jumbotron jumbotron-fluid">
                     <!--3 Rows of 2 inside Jumbotron-->
-                    <div class="container">
-                    <h2 class="display-4">Portfolio</h2><hr>
-                    
-                    <div class="row">
-                        <div class="col-md-6">
-                                <img src="images/Books.png" alt="Books" height="200px" width="200px" href="index.html"><p class= "caption">Word Games/></div><br>
-                        <div class="col-md-6">
-                            <img src="images/Climbing.png" alt="Climbing" height="200px" width="200px"><p class= "caption">RPG game</p></div>
-                    </div><br>
+                    <div class="container align-middle">
+                        <h2 class="display-4">Portfolio</h2>
+                        <hr>
 
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img src="images/NorthernLights.png" alt="Northern" height="200px" width="200px"><p class= "caption">Triva Game</p></div><br>
-                        <div class="col-md-6">
-                            <img src="images/Piano.png" alt="piano" height="200px" width="200px"><p class= "caption">Info Widget</p></div>
-                    </div><br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="images/SpiceItLogo.png" alt="Books" height="200px" width="200px" href="index.html">
+                                <p class="caption">Spice It Recipe Finder<br>
+                                    <a href="https://emalley.github.io/spiceIt/">Spiceit.com</a><br>
+                                    <a href="https://github.com/EMalley/spiceIt">Source Code</a>
+                            </div><br>
+                            <div class="col-md-6">
+                                <img src="images/Train.jpg" alt="Climbing" height="200px" width="200px">
+                                <p class="caption">Train Scheduler
+                                    <a href="https://emalley.github.io/TrainHomework/">TrainScheduler.com</a><br>
+                                    <a href="https://github.com/EMalley/TrainHomework">Source Code</a>
+                            </div>
+                        </div><br>
 
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img src="images/Puppy.png" alt="puppy" height="200px" width="200px"><p class= "caption">Rock Paper Scissor</p></div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="images/data.jpg" alt="Northern" height="200px" width="200px">
+                                <p class="caption">Data Manager
+                                    <a href="https://emalley.github.io/dataManager/">DataManager.com</a><br>
+                                    <a href="https://github.com/EMalley/dataManager">Source Code</a>
+                            </div><br>
+
+                            <div class="col-md-6">
+                                <img src="images/giphy.png" alt="piano" height="200px" width="200px">
+                                <p class="caption">Giphy API<br>
+                                    <a href="">GiphyAPI.com</a><br>
+                                    <a href="https://github.com/EMalley/giphyAPI">Source Code</a>
+                            </div>
+                        </div><br>
+
+                        <!-- <div class="row">
+                            <div class="col-md-6">
+                                <img src="images/Puppy.png" alt="puppy" height="200px" width="200px">
+                                <p class="caption">Rock Paper Scissor</p>
+                            </div>
+                        </div> -->
+
                     </div>
-                   
-                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
 
-<footer>
-    <div class="greenfooter"></div>
-    <p>copyright</p>
-</footer>
+        <footer>
+            <div class="greenfooter"></div>
+            <p>copyright</p>
+        </footer>
 </body>
+
 </html>
